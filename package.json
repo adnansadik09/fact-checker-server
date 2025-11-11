@@ -1,18 +1,17 @@
 {
-  "name": "fact-checker-server",
-  "version": "2.0.0",
-  "type": "module",
-  "description": "AI-powered fact-checking server",
+  "name": "fact-check-server",
+  "version": "1.0.0",
+  "description": "AI server for fact-checking extension",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "engines": {
-    "node": ">=18.0.0"
-  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "@google/generative-ai": "^0.21.0",
+    "@google/generative-ai": "^0.15.0",
     "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2"
   }
 }
